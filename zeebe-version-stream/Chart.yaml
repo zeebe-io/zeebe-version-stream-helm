@@ -1,0 +1,7 @@
+apiVersion: v1
+description: Base Zeebe Version Stream Project 
+icon: https://zeebe.io/img/zeebe-logo.png
+maintainers:
+- name: Team
+name: zeebe-version-stream 
+version: 0.0.1

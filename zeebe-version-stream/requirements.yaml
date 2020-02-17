@@ -1,0 +1,5 @@
+dependencies:
+- alias: zeebe
+  name: zeebe-cluster
+  repository: http://helm.zeebe.io
+  version: 0.0.68
