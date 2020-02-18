@@ -1,6 +1,0 @@
-dependencies:
-- name: zeebe-cluster
-  repository: http://helm.zeebe.io
-  version: 0.0.11
-digest: sha256:e21ad0932d0694057ba433d03624a5eba088792b328611f471fdc7846e3cefd0
-generated: "2019-12-13T11:14:32.252605Z"
