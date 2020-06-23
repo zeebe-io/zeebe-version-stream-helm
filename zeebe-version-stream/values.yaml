@@ -1,7 +1,7 @@
 ##### This values are for testing in KIND.. maybe create a selector for this
 zeebe:
   elasticsearch:
-    imageTag: 6.8.3 
+    imageTag: 6.8.5 
 # Permit co-located instances for solitary minikube virtual machines.
     antiAffinity: "soft"
     labels: { "app" : "zeebe" }
@@ -26,3 +26,5 @@ zeebe:
         requests:
           storage: 100M
   
+operate:
+  enabled: false
