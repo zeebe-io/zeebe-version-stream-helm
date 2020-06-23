@@ -3,3 +3,9 @@ dependencies:
   name: zeebe-cluster
   repository: http://helm.zeebe.io
   version: 0.0.113
+- alias: zeebe-operate
+  name: zeebe-operate
+  repository: http://helm.zeebe.io
+  version: 0.0.24
+  condition: "operate.enabled"
+
