@@ -10,7 +10,7 @@ build: clean
 	helm3 lint ${DIR}
 
 install: 
-	helm3 upgrade ${CLUSTER_NAME} ${DIR} --install --namespace ${NAMESPACE} --set operate.enabled=$OPERATE_ENABLED --debug
+	helm3 upgrade ${CLUSTER_NAME} ${DIR} --install --namespace ${NAMESPACE} --set operate.enabled=${OPERATE_ENABLED} --debug
 
 delete:
 	
