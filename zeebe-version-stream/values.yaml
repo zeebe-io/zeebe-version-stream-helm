@@ -2,6 +2,7 @@
 zeebe:
   elasticsearch:
     imageTag: 6.8.5 
+    replicas: 1
 # Permit co-located instances for solitary minikube virtual machines.
     antiAffinity: "soft"
     labels: { "app" : "zeebe" }
