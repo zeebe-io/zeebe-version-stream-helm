@@ -1,5 +1,8 @@
 ##### This values are for testing in KIND.. maybe create a selector for this
 zeebe:
+  clusterSize: 1
+  partitionCount: 1
+  replicationFactor: 1
   elasticsearch:
     imageTag: 6.8.5 
     replicas: 1
