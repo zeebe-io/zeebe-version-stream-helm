@@ -10,7 +10,7 @@ build: clean
 	helm3 lint ${DIR}
 
 install: 
-	helm3 upgrade ${CLUSTER_NAME} ${DIR} --install --namespace ${NAMESPACE} --set operate.enabled=${OPERATE_ENABLED} --set zeebe.elasticsearch.enabled=${ELASTICSEARCH_ENABLED} --set zeebe.kibana.enabled=${KIBANA_ENABLED} --set zeebe.prometheus.enabled=${KIBANA_ENABLED} --debug
+	helm3 upgrade ${CLUSTER_NAME} ${DIR} --install --namespace ${NAMESPACE} --set global.elasticsearch.host=${ELASTICSEARCH_HOST} --set global.elasticsearch.port=${ELASTICSEARCH_PORT} --set operate.enabled=${OPERATE_ENABLED} --set zeebe.elasticsearch.enabled=${ELASTICSEARCH_ENABLED} --set zeebe.kibana.enabled=${KIBANA_ENABLED} --set zeebe.prometheus.enabled=${KIBANA_ENABLED} --debug
 
 delete:
 	
