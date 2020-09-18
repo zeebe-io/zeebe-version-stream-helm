@@ -2,10 +2,10 @@ dependencies:
 - alias: zeebe
   name: zeebe-cluster
   repository: http://helm.zeebe.io
-  version: 0.0.113
+  version: 0.0.150
 - alias: zeebe-operate
   name: zeebe-operate
   repository: http://helm.zeebe.io
-  version: 0.0.24
+  version: 0.0.28
   condition: "operate.enabled"
 
