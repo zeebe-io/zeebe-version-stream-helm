@@ -31,5 +31,5 @@ zeebe:
         requests:
           storage: 100M
   
-operate:
+zeebe-operate:
   enabled: false
