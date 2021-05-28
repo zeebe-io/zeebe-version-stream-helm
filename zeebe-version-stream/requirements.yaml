@@ -1,11 +1,11 @@
 dependencies:
 - alias: zeebe
   name: zeebe-cluster
-  repository: http://helm.zeebe.io
+  repository: http://helm.camunda.io
   version: 0.0.148
 - alias: zeebe-operate
   name: zeebe-operate
-  repository: http://helm.zeebe.io
+  repository: http://helm.camunda.io
   version: 0.0.28
   condition: "operate.enabled"
 
